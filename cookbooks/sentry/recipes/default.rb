@@ -57,11 +57,11 @@ end
 ruby_block "sentry config" do
   block do
     fe = Chef::Util::FileEdit.new(sentry_config_file)
-	fe.search_file_replace(/django\.db\.backends\.sqlite3/, 'django.db.backends.mysql')
-	fe.search_file_replace(/'NAME': os\.path\.join\(CONF_ROOT, 'sentry\.db'\)/, '\'NAME\': \'sentry\'')
-	fe.search_file_replace(/'USER': 'postgres'/, '\'USER\': \'root\'')
-	fe.search_file_replace(/'PASSWORD': ''/, '\'PASSWORD\': \'' + node['mysql']['server_root_password'] + '\'')
-	fe.search_file_replace(/SENTRY_URL_PREFIX = 'http:\/\/sentry.example.com'/, 'SENTRY_URL_PREFIX = \'http://localhost:9000\'')
+    fe.search_file_replace(/django\.db\.backends\.sqlite3/, 'django.db.backends.mysql')
+    fe.search_file_replace(/'NAME': os\.path\.join\(CONF_ROOT, 'sentry\.db'\)/, '\'NAME\': \'sentry\'')
+    fe.search_file_replace(/'USER': 'postgres'/, '\'USER\': \'root\'')
+    fe.search_file_replace(/'PASSWORD': ''/, '\'PASSWORD\': \'' + node['mysql']['server_root_password'] + '\'')
+    fe.search_file_replace(/SENTRY_URL_PREFIX = 'http:\/\/sentry.example.com'/, 'SENTRY_URL_PREFIX = \'http://localhost:9000\'')
     fe.write_file
   end
 end
