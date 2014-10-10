@@ -10,10 +10,10 @@ default_attributes(
 
 run_list(
   "recipe[build-essential]",
-  "recipe[database::mysql]",
   "recipe[apt]",
-  "recipe[mysql::server]",
   "recipe[mysql::client]",
+  "recipe[database::mysql]",
+  "recipe[mysql::server]",
   "recipe[python]",
   "recipe[git]",
   "recipe[vim]",
