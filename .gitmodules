@@ -1,0 +1,66 @@
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/aws"]
+	path = cookbooks/aws
+	url = git://github.com/opscode-cookbooks/aws.git
+[submodule "cookbooks/chef-mailcatcher"]
+	path = cookbooks/chef-mailcatcher
+	url = git://github.com/bryantebeek/chef-mailcatcher.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = git://github.com/opscode-cookbooks/chef_handler.git
+[submodule "cookbooks/chef-sugar"]
+	path = cookbooks/chef-sugar
+	url = git://github.com/sethvargo/chef-sugar.git
+[submodule "cookbooks/database"]
+	path = cookbooks/database
+	url = git://github.com/opscode-cookbooks/database
+[submodule "cookbooks/dmg"]
+	path = cookbooks/dmg
+	url = git://github.com/opscode-cookbooks/dmg.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/mysql-chef_gem"]
+	path = cookbooks/mysql-chef_gem
+	url = git://github.com/opscode-cookbooks/mysql-chef_gem.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/postgresql"]
+	path = cookbooks/postgresql
+	url = git://github.com/opscode-cookbooks/postgresql.git
+[submodule "cookbooks/python"]
+	path = cookbooks/python
+	url = git://github.com/opscode-cookbooks/python.git
+[submodule "cookbooks/runit"]
+	path = cookbooks/runit
+	url = git://github.com/hw-cookbooks/runit.git
+[submodule "cookbooks/supervisor"]
+	path = cookbooks/supervisor
+	url = git://github.com/opscode-cookbooks/supervisor.git
+[submodule "cookbooks/vim"]
+	path = cookbooks/vim
+	url = git://github.com/opscode-cookbooks/vim.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = git://github.com/opscode-cookbooks/windows.git
+[submodule "cookbooks/xfs"]
+	path = cookbooks/xfs
+	url = git://github.com/opscode-cookbooks/xfs.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = git://github.com/opscode-cookbooks/yum.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = git://github.com/opscode-cookbooks/yum-epel.git
+[submodule "cookbooks/yum-mysql-community"]
+	path = cookbooks/yum-mysql-community
+	url = git://github.com/opscode-cookbooks/yum-mysql-community.git
